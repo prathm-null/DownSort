@@ -18,6 +18,10 @@ class DownSortHUD:
         self.root.configure(bg="#060a12")
         self.root.resizable(False, False)
 
+        icon_file = Path(__file__).with_name("downsort.ico")
+        if icon_file.exists():
+            self.root.iconbitmap(str(icon_file))
+
         self.is_paused = False
         self.phase = 0.0
 

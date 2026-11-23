@@ -1,0 +1,8 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+.idea/
+.vscode/
+test_downloads/
+_In_Progress_Copies/
